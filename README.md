@@ -4,7 +4,7 @@ An optimal algorithm implemented in Python for inversion counting of n elements 
 ## CS577: Algorithms Assignment Specification
 
 Implement the optimal algorithm for inversion counting in either C, C++, C#, Java, or Python. Be
-efficient and implement it in O(n log n) time, where n is the number of elements in the ranking.
+efficient and implement it in O(nlogn) time, where n is the number of elements in the ranking.
 The input will start with an positive integer, giving the number of instances that follow. For each
 instance, there will be a positive integer, giving the number of elements in the ranking. 
 
@@ -26,3 +26,7 @@ should be terminated by a newline. The correct output to the sample input would 
 10
 1
 ```
+
+## Notes on My Solution
+
+I solved this problem as an instance of a Divide & Conquer algorithm where I recursively break down the input list into two and make a call to a helper function MergeCount() which initializes a new merged list and counts the number of inversions. Key feature of this implementation is that MergeCount() counts the instances and sorts the two sub arrays at the same time, leading to the O(nlogn) runtime complexity. 
