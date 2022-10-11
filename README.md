@@ -1,7 +1,7 @@
 # OptimalInversionCounter
 An optimal algorithm implemented in Python for inversion counting of n elements in a ranking.
 
-## CS577 Algorithms Assignment Specification
+## CS577: Algorithms Assignment Specification
 
 Implement the optimal algorithm for inversion counting in either C, C++, C#, Java, or Python. Be
 efficient and implement it in O(n log n) time, where n is the number of elements in the ranking.
