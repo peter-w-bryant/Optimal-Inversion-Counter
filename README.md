@@ -1,5 +1,5 @@
 # OptimalInversionCounter
-An optimal algorithm implemented in Python for inversion counting of n elements in a ranking.
+An optimal algorithm (implemented in Python) for inversion counting of n elements in a ranking.
 
 ## CS577: Algorithms Assignment Specification
 
