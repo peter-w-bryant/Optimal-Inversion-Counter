@@ -29,4 +29,4 @@ should be terminated by a newline. The correct output to the sample input would 
 
 ## Notes on My Solution
 
-I solved this problem as an instance of a Divide & Conquer algorithm where I recursively break down the input list into two and make a call to a helper function MergeCount() which initializes a new merged list and counts the number of inversions. Key feature of this implementation is that MergeCount() counts the instances and sorts the two sub arrays at the same time, leading to the O(nlogn) runtime complexity. 
+I solved this problem as an instance of a Divide & Conquer algorithm where I recursively break down the input list into two and make a call to a helper function MergeCount() which initializes a new merged list and counts the number of inversions. The key feature of this implementation is that MergeCount() counts the instances and sorts the two sub arrays at the same time, leading to the O(nlogn) runtime complexity. 
